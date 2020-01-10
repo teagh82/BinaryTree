@@ -1,0 +1,27 @@
+﻿빌드 시작: 2019-09-19 오전 11:48:11
+     1>2 노드의 "E:\08-BinaryTree\08-BinaryTree\08-BinaryTree.vcxproj" 프로젝트(build 대상)입니다.
+       프로젝트 파일에 ToolsVersion="15.0"이(가) 들어 있습니다. 이 도구 집합은 알 수 없거나 누락되었을 수 있습니다. 이 경우 적절한 버전의 MSBuild를 설치하여 이 문제를 해결할 수 있습니다. 그렇지 않으면 빌드가 정책상의 이유로 특정 ToolsVersion이 될 수 있습니다. 프로젝트에 ToolsVersion="4.0"이 들어 있는 것으로 간주합니다. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkId=291333을 참조하십시오.
+     1>PrepareForBuild:
+         "E:\08-BinaryTree\x64\Debug\" 디렉터리를 만들고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\08-BinaryTree.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt binaryTree.cpp main.cpp
+         main.cpp
+         binaryTree.cpp
+         Generating Code...
+     1>e:\08-binarytree\08-binarytree\circularq.h(38): warning C4715: 'CircularQueue::dequeue' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\08-BinaryTree\x64\Debug\08-BinaryTree.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\08-BinaryTree.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\08-BinaryTree\x64\Debug\08-BinaryTree.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\08-BinaryTree\x64\Debug\08-BinaryTree.lib" /MACHINE:X64 x64\Debug\binaryTree.obj
+         x64\Debug\main.obj
+         08-BinaryTree.vcxproj -> E:\08-BinaryTree\x64\Debug\08-BinaryTree.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\08-BinaryTree\x64\Debug\08-BinaryTree.exe;#1" /manifest "x64\Debug\08-BinaryTree.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         "x64\Debug\08-BinaryTree.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "x64\Debug\08-BinaryTree.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"E:\08-BinaryTree\08-BinaryTree\08-BinaryTree.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:06.60
